@@ -1,0 +1,65 @@
+
+target/
+*.class
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+###  MAVEN ###
+.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+### LOG FILES
+*.log
+logs/
+**/logs/**
+
+###  (Secrets & Local Configs) ###
+
+.env
+.env.*
+!.env.example
+application-local.properties
+*.jks
+*.pem
+*.key
+
+###  INTELLIJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+###  VS CODE & ECLIPSE / STS
+.vscode/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+###  (OS Junk) ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
